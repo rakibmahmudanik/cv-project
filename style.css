@@ -1,0 +1,186 @@
+*{
+
+padding: 0;
+margin: 0 auto;
+
+}
+
+body{
+    background-color: rgb(212, 212, 212);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container{
+    background-color: rgb(227, 255, 246);
+    max-width:1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*------Header-----*/
+
+header{
+    
+}
+
+
+
+.profile-pic{
+    height: 100px;
+    width: 100px;
+    border: 3px solid rgb(27, 0, 124);
+    border-radius: 50%;
+    float: left;
+}
+
+.header-bio{
+    float: left;
+    padding: 15px;
+}
+
+.header-contact{
+    float: right;
+    padding: 15px;
+}
+
+.header-contact a{
+    text-decoration: none;
+    color:rgb(27, 0, 124) ;
+    padding: 15px;
+}
+
+
+.header-contact :hover{
+    color: tomato;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:rgb(27, 0, 124);
+    
+}
+
+.clear-div{
+    clear: both;
+}
+
+hr{
+    border: solid rgb(10, 10, 10) 3px;
+    border-bottom: none;
+    margin: 20px auto;
+}
+
+#common-hr{
+    border: solid rgb(175, 175, 175) 1px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+/*---------------
+personal section
+----------------*/
+
+#personal-section{
+
+}
+
+.content{
+    margin-bottom: 25pxpx;
+
+}
+
+.left-div{
+    width: 30%;
+    float: left;
+}
+
+.right-div{
+    width: 70%;
+    float: left;
+}
+
+li{
+    list-style: none;
+}
+
+
+
+/*---------------
+Educational section
+----------------*/
+
+.table-info{
+    text-align: center;
+    border-color: rgb(38, 5, 158);
+    float: left;
+    border-collapse:collapse;
+
+}
+
+.table-info tr th{
+    padding: 10px;
+    color: rgb(27, 0, 124);
+
+}
+
+.table-info tr td{
+    padding: 10px;
+
+}
+
+
+/*---------------
+Footer section
+----------------*/
+
+.footer-info{
+    background-color: black;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.footer-info a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    
+}
+
+.footer-info p{
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+
+.fa {
+    border: solid black 3px;
+    border-radius: 25%;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 10px;
+  }
+  
+  .fa:hover {
+      background-color:  rgb(227, 255, 246);
+      color: tomato;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
